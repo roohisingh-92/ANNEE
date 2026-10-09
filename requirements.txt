@@ -1,0 +1,12 @@
+# Environment this repository is tested against (CPU; swap tensorflow-cpu for
+# tensorflow to train on GPU). Record the environment the reported experiments
+# actually ran in under environment/paper-environment.txt.
+tensorflow-cpu==2.20.0
+numpy==2.5.3
+scipy==1.18.1
+scikit-image==0.26.0
+scikit-learn==1.9.1
+pandas==3.0.5
+pillow==12.3.0
+pyyaml==6.0.3
+pytest==9.0.1

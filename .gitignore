@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+
+# the archives are not redistributed; see docs/DATA.md
+data/
+
+# generated artefacts: commit these deliberately, per RELEASE_CHECKLIST.md
+artifacts/**/*.h5
+artifacts/**/*.npy
+artifacts/**/*.png
+artifacts/tables/
+!artifacts/**/README.md
